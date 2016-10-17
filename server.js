@@ -20,7 +20,7 @@ app.get('/ui/pic.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'pic.jpg'));
 });
 
-app.get('/hello.html', function (req, res) {
+app.get('/hello1.html', function (req, res) {
   res.send("ITS UNDER CONSTRUCTION");
 });
 
